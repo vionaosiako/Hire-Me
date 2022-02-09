@@ -48,6 +48,10 @@ nav{
     box-shadow: none;
     font-family: 'Courier New', Courier, monospace;
 }
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
 
 
 
@@ -72,7 +76,6 @@ nav{
 
 .tab-pane{
     font-family: 'Courier New', Courier, monospace;
-    position: fixed;
 }
 
 .tab-pane .nav-item{
@@ -125,5 +128,38 @@ nav{
 
 
 /**** End of Side nav & slide********/
+
+
+/*****Compny goals*****/
+
+.col-auto .card{
+    background-color: whitesmoke;
+}
+#shield{
+    width: 7%;
+}
+#tech-sup{
+    width: 7%;
+}
+#quality{
+    width: 8%;
+
+}
+
+#c-goal1{
+    background-color: whitesmoke;
+}
+
+#c-goal2{
+    background-color: whitesmoke;
+}
+
+#c-goal3{
+    background-color: whitesmoke;
+}
+
+
+
+/*****ENd of Compny goals*****/
 
 
