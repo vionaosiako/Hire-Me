@@ -4,6 +4,8 @@ nav{
 }
 .container-fluid{
     background-color: yellow;
+    position: fixed;
+
 
 
 }
@@ -17,6 +19,14 @@ nav{
     color: whitesmoke;
 }
 
+
+/****End of top nav bar******/
+
+
+/******logo and search******/
+.container1{
+    position: fixed;
+}
 #logo1{
     width: 20%;
     
@@ -34,12 +44,22 @@ nav{
     
 }
 
+
+/******End logo and search******/
+
+/****Side nav & slide********/
+
+.container2{
+    margin-left: 5%;
+}
+
 .col-sm-4{
     margin-top: 5%;
 }
 
 .tab-pane{
     font-family: 'Courier New', Courier, monospace;
+    position: fixed;
 }
 
 .tab-pane .nav-item{
@@ -51,5 +71,17 @@ nav{
     color: yellow;
 
 }
+
+.col-8{
+    margin-top: 5%;
+}
+
+.carousel-caption{
+    font-family: monospace;
+    color: black;
+}
+
+
+/**** End of Side nav & slide********/
 
 
