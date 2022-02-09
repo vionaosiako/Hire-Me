@@ -1,0 +1,38 @@
+nav{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.container-fluid{
+    background-color: yellow;
+
+
+}
+
+.nav-link{
+    color: black;
+    padding: 5px;
+}
+
+.nav-link:hover{
+    color: whitesmoke;
+}
+
+#logo1{
+    width: 20%;
+    
+}
+
+#form-control-rounded{
+    margin-top: 30px;
+    background-color: white;
+
+}
+
+.btn-default{
+    background-color: yellow;
+    box-shadow: none;
+    
+}
+
+
+
