@@ -1,0 +1,52 @@
+#car {
+  width: 60%;
+  align-items: center;
+}
+#high {
+}
+#high h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #EBD516;
+  font-weight: bold;
+  padding-top: 20px;
+}
+#high p {
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.critic {
+  background-image: linear-gradient(135deg, #000000, #FEC83D);
+  border-radius: 40px;
+  transform: translateX(-12%);
+}
+#pngs img {
+  width: 96%;
+}
+#pngs h4 {
+  font-size: 15px;
+  color: #414141;
+}
+#pngs p {
+  font-size: 18px;
+  color: #000000;
+}
+.img {
+  background-color: #F4F4F2;
+  border-radius: 30px;
+  text-align: center;
+}
+.material-icons {
+  color: #EBD516;
+  font-size: 18px;
+}
+#detz .call {
+  font-size: 10px;
+}
+#detz .material-icons {
+  color: #16ddeb;
+  transform: translateY(30%);
+}
