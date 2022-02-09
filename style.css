@@ -1,22 +1,31 @@
+*{
+    font-family: 'Amazon Ember V2', sans-serif;
+}
 nav{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
-.container-fluid{
-    background-color: yellow;
-    position: fixed;
-
-
-
+#cf1{
+    background-color: #fdd101;
 }
 
 .nav-link{
     color: black;
-    padding: 5px;
+    padding-right: 5px;
 }
 
 .nav-link:hover{
     color: whitesmoke;
+}
+
+#post-btn{
+    background-color: black;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-toggler{
+    color: black;
 }
 
 
@@ -24,23 +33,29 @@ nav{
 
 
 /******logo and search******/
-.container1{
-    position: fixed;
-}
+
+
+
+
 #logo1{
     width: 20%;
     
 }
 
-#form-control-rounded{
+.form-control{
     margin-top: 30px;
     background-color: white;
-
+    box-shadow: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.btn-default{
-    background-color: yellow;
+
+
+#search-btn{
+    background-color: #fdd101;
     box-shadow: none;
+    margin-top: 30px;
+
     
 }
 
@@ -49,11 +64,9 @@ nav{
 
 /****Side nav & slide********/
 
-.container2{
-    margin-left: 5%;
-}
 
-.col-sm-4{
+
+.col-sm-3{
     margin-top: 5%;
 }
 
@@ -80,6 +93,35 @@ nav{
     font-family: monospace;
     color: black;
 }
+.carousel-inner{
+    height: 280px;
+}
+
+/****Cards****/
+
+.card-body{
+    background-color: whitesmoke;
+    font-family: monospace;
+}
+.card img{
+    width: 100%;
+}
+
+.card button{
+    color: white;
+    background-color: black;
+    border: none;
+}
+.card button:hover{
+    background-color: #fdd101;
+}
+
+.card .btn:focus{
+    box-shadow: none;
+
+}
+/****End of Cards****/
+
 
 
 /**** End of Side nav & slide********/
