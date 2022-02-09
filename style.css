@@ -34,5 +34,22 @@ nav{
     
 }
 
+.col-sm-4{
+    margin-top: 5%;
+}
+
+.tab-pane{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tab-pane .nav-item{
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+
+.tab-pane .nav-item a:hover{
+    color: yellow;
+
+}
 
 
