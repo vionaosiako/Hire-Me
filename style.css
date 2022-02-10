@@ -162,4 +162,53 @@ nav{
 
 /*****ENd of Compny goals*****/
 
+/****Featured*******/
+
+#bsp{
+    font-family: 'Amazon Ember', sans-serif; 
+}
+
+/****End of Featured*******/
+footer{
+    background-color: whitesmoke;
+}
+
+
+#footer-ul a{
+    color: black;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+#footer-ul a:hover{
+    color: #fdd101;
+}
+
+.col-sm-4 #android{
+    width: 40%;
+
+}
+
+.phone{
+    color: black;
+    
+}
+
+.phone:hover{
+    color: #fdd101;
+    text-decoration: none;
+}
+.location{
+    color: black;
+}
+
+.location:hover{
+    color: #fdd101;
+    text-decoration: none;
+}
+
+
+
+
+
 
